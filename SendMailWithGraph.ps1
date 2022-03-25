@@ -1,3 +1,5 @@
+#requires -module Microsoft.Graph.Authentication, Microsoft.Graph.Users.Actions
+
 function Send-MailMessageWithGraph {
 <#
 .SYNOPSIS
